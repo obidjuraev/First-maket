@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.nav li{
+  float: left;
+}
+.nav li a{
+  display: block;
+  text-align:center;
+  padding: 15px 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+}
+.nav li a:hover{
+  background-color:#ff0000;
+}
+.main{
+  margin: 5px 90px;
+
+}
+.main h1{
+  font-family:sans-serif;
+  font-size: 50px;
+  float:left;
+  width: 30%;
+}
+.main p{
+  text-align: center;
+  font-size: 20px;  
+  float: left;
+  width:30%;
+}
+.main h3{
+  float:right;
+  transform: rotate(-90deg);
+}
+/* About me */
+#about{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 150px ;
+}
+#about h1{
+  font-size:40px;
+}
+#about p{
+  font-size: 20px;
+}
+.head{
+  text-align: center;
+  font-size:40px;
+  color:#111;
+  margin:80px 0 80px 0;
+}
+.info{
+  text-align: center;
+  font-size:24px;
+  margin-bottom: 150px;
+}
+.skill{
+  float: left;
+  width: 20%;
+  margin-left: 60px;
+  position: relative;
+
+}
+.photo{
+  margin: 20px 80px;
+}
+.fashion{
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  color:#111;
+  margin-bottom: 100px;
+}
+img:hover{
+  border: 2px solid blue;
+}
+.btn{
+  border-radius: 25%;
+  
+}
